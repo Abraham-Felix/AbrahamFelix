@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <h1>
-            Jobs
-        </h1>
-    </div>
+    <JobExperience />
 </template>
+  
+<script setup>
+import JobExperience from '@/components/JobExperience.vue'
+</script>

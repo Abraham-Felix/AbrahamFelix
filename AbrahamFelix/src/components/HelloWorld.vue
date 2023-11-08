@@ -15,12 +15,9 @@
             👋 Hello, I'm Abraham Felix. A Software Developer especialized in User Centric Design known as
             UX since 2018.
             <v-spacer class="my-3" />
-            👨‍🏫 I posses relentless strengths such as designing with figma and coding using Vue.js front-end
-            technologies
-            along with popular design frameworks as Vuetify.
-
-            If you want to know more about my work, open the left side drawer or look
-            around this site, I coded for you to explore it 🚀.
+            👨‍🏫 I possess relentless strengths such as designing with Figma and coding using Vue.js front-end
+            technologies along with popular design frameworks as Vuetify. If you want to know more about my work, open the
+            left side drawer or look around this site, I coded for you to explore it 🚀.
           </p>
         </v-col>
 
@@ -31,8 +28,7 @@
 
 
         <v-col cols="auto">
-          <v-btn color="primary" to="/about" min-width="228" rel="noopener noreferrer" size="x-large" target="_blank"
-            variant="flat">
+          <v-btn color="primary" to="/about" min-width="228" rel="noopener noreferrer" size="x-large" variant="flat">
             <v-icon icon="mdi-account-tie" size="large" start />
 
             About me

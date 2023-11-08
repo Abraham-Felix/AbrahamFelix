@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <h1>
-            Certifications
-        </h1>
-    </div>
+    <Certificates />
 </template>
+  
+<script setup>
+import Certificates from '@/components/Certificates.vue'
+</script>

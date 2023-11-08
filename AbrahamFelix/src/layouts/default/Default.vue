@@ -42,7 +42,7 @@ export default {
               Activator slot
             </v-avatar>
           </template>
-          <v-list>
+          <v-list class="mr-n3" :bg-color="'#172026'">
             <v-list-item v-for="(item, index) in items" :key="index" :value="index">
               <v-list-item-title>{{ item.title }}</v-list-item-title>
             </v-list-item>
@@ -52,7 +52,7 @@ export default {
       </template>
     </v-app-bar>
 
-    <v-navigation-drawer v-model="drawer" expand-on-hover rail color="grey-darken-2">
+    <v-navigation-drawer :color="'#172026'" v-model="drawer" expand-on-hover rail color="grey-darken-2">
       <v-list>
         <router-link class="text-decoration-none text-white" to="jobs">
           <v-list-item prepend-icon="mdi-briefcase" value="jobs" title="Job Experience">

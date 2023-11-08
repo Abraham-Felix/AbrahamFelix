@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <h1>
-            Figma Project
-        </h1>
-    </div>
+    <FigmaProject />
 </template>
+  
+<script setup>
+import FigmaProject from '@/components/FigmaProject.vue'
+</script>
