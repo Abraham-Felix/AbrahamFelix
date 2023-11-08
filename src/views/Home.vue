@@ -8,7 +8,7 @@
   >
   
   </Vue3Spline>
-  <HelloWorld #append/>
+  <HelloWorld/>
 </template>
 
 <script setup>

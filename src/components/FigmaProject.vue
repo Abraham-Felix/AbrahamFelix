@@ -4,7 +4,7 @@
             <h1>Figma Project</h1>
 
 
-            <v-card class="mx-auto pa-3 my-12" max-width="900">
+            <v-card class="bg-transparent mx-auto pa-3 my-12" max-width="900">
 
 
                 <iframe style=" border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
