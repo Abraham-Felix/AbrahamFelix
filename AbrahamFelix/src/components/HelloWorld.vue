@@ -1,44 +1,45 @@
 <template>
   <v-container class="fill-height">
     <v-responsive class="align-center text-center fill-height">
-      <h1 class="text-h2 py-10 font-weight-bold">Welcome</h1>
+      <h1 class="text-h2 py-10">Welcome</h1>
 
       <v-avatar
         image="https://avatars.githubusercontent.com/u/38101725?s=400&u=d3e5a594469e4faa6bf35b6e86bcfa414fe785ce&v=4"
         size="200">
       </v-avatar>
-      <div class="text-body-1 pt-10 font-weight-light mb-n1">Portfolio</div>
+      <h3 class=" pt-10 font-weight-bold mb-n1">Abraham's Portfolio</h3>
+      <v-row class="d-flex text-left justify-center">
 
+        <v-col cols="8">
+          <p class=" pt-10 text-body-2 font-weight-lighs mb-n1">
+            👋 Hello, I'm Abraham Felix. A Software Developer especialized in User Centric Design known as
+            UX since 2018.
+            <v-spacer class="my-3" />
+            👨‍🏫 I posses relentless strengths such as designing with figma and coding using Vue.js front-end
+            technologies
+            along with popular design frameworks as Vuetify.
 
+            If you want to know more about my work, open the left side drawer or look
+            around this site, I coded for you to explore it 🚀.
+          </p>
+        </v-col>
+
+      </v-row>
       <div class="py-14" />
 
       <v-row class="d-flex align-center justify-center">
-        <v-col cols="auto">
-          <v-btn href="https://vuetifyjs.com/components/all/" min-width="164" rel="noopener noreferrer" target="_blank"
-            variant="text">
-            <v-icon icon="mdi-view-dashboard" size="large" start />
 
-            Components
+
+        <v-col cols="auto">
+          <v-btn color="primary" to="/about" min-width="228" rel="noopener noreferrer" size="x-large" target="_blank"
+            variant="flat">
+            <v-icon icon="mdi-account-tie" size="large" start />
+
+            About me
           </v-btn>
         </v-col>
 
-        <v-col cols="auto">
-          <v-btn color="primary" href="https://vuetifyjs.com/introduction/why-vuetify/#feature-guides" min-width="228"
-            rel="noopener noreferrer" size="x-large" target="_blank" variant="flat">
-            <v-icon icon="mdi-speedometer" size="large" start />
 
-            Get Started
-          </v-btn>
-        </v-col>
-
-        <v-col cols="auto">
-          <v-btn href="https://community.vuetifyjs.com/" min-width="164" rel="noopener noreferrer" target="_blank"
-            variant="text">
-            <v-icon icon="mdi-account-group" size="large" start />
-
-            Community
-          </v-btn>
-        </v-col>
       </v-row>
     </v-responsive>
   </v-container>
