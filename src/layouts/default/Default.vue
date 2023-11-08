@@ -3,8 +3,8 @@ export default {
   data: () => ({
     drawer: false,
     items: [
-      { title: 'About' },
-      { title: 'Contact' }
+      { title: 'About', link: '/about' },
+      { title: 'Contact', contact: '/contact' }
     ],
     // values can be 0 or -1
     order: -1,
@@ -43,7 +43,7 @@ export default {
             </v-avatar>
           </template>
           <v-list class="mr-n3" :bg-color="'#021826'">
-            <v-list-item v-for="(item, index) in items" :key="index" :value="index">
+            <v-list-item v-for="(item, index) in items" :to="item.link" :key="index" :value="index">
               <v-list-item-title>{{ item.title }}</v-list-item-title>
             </v-list-item>
           </v-list>

@@ -7,12 +7,14 @@
       class="mx-auto bg-transparent text-left mt-7"
       max-width="900"
     >
-      <v-card-title>
+    
+      <v-card-title >
         🍕 Let's learn about myself 
       </v-card-title>
   
-      <v-divider></v-divider>
-      <v-virtual-scroll  :items="items"  height="620">
+      <v-divider/>
+    
+      <v-virtual-scroll :items="items"  height="620">
       <v-list-item >
 
           <div>
