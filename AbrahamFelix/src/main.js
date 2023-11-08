@@ -13,6 +13,10 @@ import { createApp } from 'vue'
 // Plugins
 import { registerPlugins } from '@/plugins'
 
+// css style
+
+import '@/styles/styles.css'
+
 const app = createApp(App)
 
 registerPlugins(app)

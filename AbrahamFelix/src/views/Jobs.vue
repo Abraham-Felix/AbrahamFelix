@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>
-            Posts
+            Jobs
         </h1>
     </div>
 </template>

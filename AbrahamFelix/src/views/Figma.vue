@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>
-            Comments
+            Figma Project
         </h1>
     </div>
 </template>

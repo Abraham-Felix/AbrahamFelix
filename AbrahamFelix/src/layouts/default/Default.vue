@@ -3,9 +3,8 @@ export default {
   data: () => ({
     drawer: false,
     items: [
-      { title: 'Profile' },
-      { title: 'Settings' },
-      { title: 'Logout' }
+      { title: 'About' },
+      { title: 'Contact' }
     ],
     // values can be 0 or -1
     order: -1,
@@ -24,15 +23,15 @@ export default {
     <v-app-bar :elevation="3" :color="'green'" :order="order" color="grey-lighten-2" flat location="top"
       density="comfortable">
       <template #prepend>
-        <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+        <v-app-bar-nav-icon value="drawer button" variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
         <v-toolbar-title>
           <router-link class="text-decoration-none text-white" to="/">
-            Abraham's UX Portfolio
+            Abraham's Portfolio
           </router-link>
         </v-toolbar-title>
       </template>
 
-      <template append>
+      <template #append>
 
 
         <v-menu>
@@ -55,18 +54,22 @@ export default {
 
     <v-navigation-drawer v-model="drawer" expand-on-hover rail color="grey-darken-2">
       <v-list>
-        <router-link class="text-decoration-none text-white" to="posts">
-          <v-list-item to="posts" prepend-icon="mdi-book" value="posts" title="Posts">
+        <router-link class="text-decoration-none text-white" to="jobs">
+          <v-list-item prepend-icon="mdi-briefcase" value="jobs" title="Job Experience">
           </v-list-item>
         </router-link>
-        <router-link class="text-decoration-none text-white" to="comments">
-          <v-list-item prepend-icon="mdi-comment" value="comments" title="Comments">
+        <router-link class="text-decoration-none text-white" to="certifications">
+          <v-list-item prepend-icon="mdi-certificate" value="certifications" title="Certifications">
+          </v-list-item>
+        </router-link>
+        <router-link class="text-decoration-none text-white" to="figma">
+          <v-list-item prepend-icon="mdi-pencil-ruler" value="figma" title="Figma Project">
           </v-list-item>
         </router-link>
       </v-list>
     </v-navigation-drawer>
 
-    <v-main class="d-flex align-center justify-center" style="min-height: 300px;">
+    <v-main class="d-flex align-left justify-left px-5" style="min-height: 300px;">
       <router-view />
     </v-main>
 

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap');
+
+h1,
+h2,
+.text-h1,
+.text-h2 {
+    font-family: 'Rubik Mono One', monospace !important;
+}
+
+p,
+.text-body-1,
+.text-body-2,
+html {
+    font-family: 'Azeret Mono', monospace !important;
+}
