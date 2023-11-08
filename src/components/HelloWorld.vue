@@ -1,7 +1,8 @@
 <template>
-  <v-container class="fill-height">
+  <v-container class="px-0 fill-height">
     <v-responsive class="align-center text-center fill-height">
       <h1 class="text-h2 py-10">Welcome</h1>
+
 
       <v-avatar
         image="https://avatars.githubusercontent.com/u/38101725?s=400&u=d3e5a594469e4faa6bf35b6e86bcfa414fe785ce&v=4"
@@ -12,10 +13,10 @@
 
         <v-col cols="8">
           <p class=" pt-10 text-body-2 font-weight-lighs mb-n1">
-            👋 Hello, I'm Abraham Felix. A Software Developer especialized in User Centric Design known as
+            👋 Hello, I'm Abraham Felix. Just a software developer dedicated in User Centric Design known as
             UX since 2018.
             <v-spacer class="my-3" />
-            👨‍🏫 I possess relentless strengths such as designing with Figma and coding using Vue.js front-end
+            👨‍🚀 I like creating 2d and 3d art using a pen or tools like Figma, CorelDraw, Splice and coding using Vue.js front-end
             technologies along with popular design frameworks as Vuetify. If you want to know more about my work, open the
             left side drawer or look around this site, I coded for you to explore it 🚀.
           </p>
@@ -41,6 +42,10 @@
   </v-container>
 </template>
 
-<script setup>
-//
+
+<script>
+
+
+
 </script>
+

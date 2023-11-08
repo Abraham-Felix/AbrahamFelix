@@ -16,7 +16,7 @@ h2,
 .text-h1,
 .text-h2 {
     font-family: 'Rubik Mono One', monospace !important;
-    color: #172026;
+    color: #ffffff;
 }
 
 p,
@@ -24,5 +24,9 @@ p,
 .text-body-2,
 html {
     font-family: 'Azeret Mono', monospace !important;
-    color: #172026;
+    color: #ffffff;
+}
+html {
+    background: linear-gradient( #000000 80% , #000000 70%, #021826);
+    height: -webkit-fill-available;
 }
