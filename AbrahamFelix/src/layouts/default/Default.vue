@@ -20,7 +20,7 @@ export default {
 
 <template>
   <v-layout class="rounded rounded-md">
-    <v-app-bar :elevation="3" :color="'green'" :order="order" color="grey-lighten-2" flat location="top"
+    <v-app-bar :elevation="3" :color="'#172026'" :order="order" color="grey-lighten-2" flat location="top"
       density="comfortable">
       <template #prepend>
         <v-app-bar-nav-icon value="drawer button" variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>

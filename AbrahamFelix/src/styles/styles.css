@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap');
 
+
+/* Color Palette notes:
+P: #172026
+H: #FF330A
+A: #0A14F0
+Complementary: #FF0897 #FFFC01 #03EAF0
+Sections Alt: #EEEEEE and #FFFFFF 
+*/
+
+
 h1,
 h2,
 .text-h1,
 .text-h2 {
     font-family: 'Rubik Mono One', monospace !important;
+    color: #172026;
 }
 
 p,
@@ -13,4 +24,5 @@ p,
 .text-body-2,
 html {
     font-family: 'Azeret Mono', monospace !important;
+    color: #172026;
 }
