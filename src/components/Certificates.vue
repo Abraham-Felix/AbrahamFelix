@@ -1,33 +1,84 @@
 <template>
-    <v-container class="fill-height">
-        <v-responsive class="align-top text-center fill-height">
-            <h1>Certificates</h1>
-
-
-            <v-card class="mx-auto pa-3 my-12" max-width="574">
-
-
-                <v-img cover height="330" src="@/assets/certificates/vue.png"></v-img>
-
-                <v-card-text class="text-left">
-
-
-                    <div class="my-4 text-subtitle-1">
-                        <v-icon icon="mdi-certificate"></v-icon> Certifified in Vue
-                    </div>
-
-
-                </v-card-text>
-
-                <v-divider class="mx-4 mb-1"></v-divider>
-
-            </v-card>
-
-
-        </v-responsive>
-    </v-container>
-</template>
+          
+            <v-timeline line-color="white"  align="center" class="text-center">
+              <v-timeline-item
+                v-for="(year, i) in years"
+                :key="i"
+                :dot-color="year.color"
+                size="small"
+              >
+                <template v-slot:opposite>
+                  <div
+                    :class="`pt-1 headline font-weight-bold text-${year.color}`"
+                    v-text="year.year"
+                  ></div>
+                </template>
+                <div>
+                  <h2 v-text="year.cert" :class="`mt-n1 text-h5 headline font-weight-light mb-4 text-${year.color}`">
+                    
+                  </h2>
+                  <div>
+                    <v-icon icon="mdi-certificate"></v-icon> Certified
+                  </div>
+                </div>
+              </v-timeline-item>
+            </v-timeline>
+        </template>
   
-<script setup>
-//
-</script>
+
+        
+
+  
+        <script>
+        export default {
+          data: () => ({
+            years: [
+              {
+                color: 'cyan',
+                year: '2023',
+                cert: 'AGILE UX DESIGN AND RESEARCH'
+              },
+              {
+                color: 'green',
+                year: '2023',
+                cert: 'Vue'
+              },
+              {
+                color: 'pink',
+                year: '2023',
+                cert: 'Project Leadership'
+              },
+              {
+                color: 'amber',
+                year: '2023',
+                cert: 'NUXT MASTER'
+              },
+              {
+                color: 'orange',
+                year: '2021',
+                cert: 'JAVASCRIPT'
+              },
+              {
+                color: 'red',
+                year: '2019',
+                cert: 'VISUAL ELEMENTS OF UI'
+              },
+              {
+                color: 'blue',
+                year: '2018',
+                cert: 'HTML5 & CSS3'
+              },
+              {
+                color: 'cyan',
+                year: '2018',
+                cert: 'IT'
+              },
+              {
+                color: 'green',
+                year: '2017',
+                cert: 'Digital Marketing'
+              },
+            ],
+          }),
+        }
+      </script>
