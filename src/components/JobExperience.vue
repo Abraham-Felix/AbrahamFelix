@@ -1,10 +1,10 @@
 <template>
-    <v-container class="fill-height">
+    <v-container>
         <v-responsive class="align-top text-center fill-height">
             <h1>Job Experience</h1>
 
 
-            <v-card class="bg-transparent mx-auto pa-3 my-12" max-width="574">
+            <v-card class="bg-transparent mx-auto pa-3 " max-width="574">
 
 
                 <v-img cover height="330" src="@/assets/jobs/fhm-mockup-900px.png"></v-img>

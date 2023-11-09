@@ -1,6 +1,13 @@
 <template>
-  <v-container class="px-0 fill-height">
-    <v-responsive class="align-center text-center fill-height">
+  <Vue3Spline  style="z-index:-1 ; width: auto; position: fixed;"
+  :scene="{
+    url: 'https://prod.spline.design/qtJiAlkWCKctC-RX/scene.splinecode',
+  }"
+  >
+  
+  </Vue3Spline>
+  <v-container class="pa-0 ">
+    <v-responsive class="align-center text-center ">
       <h1 class="text-h2 py-10">Welcome</h1>
 
 

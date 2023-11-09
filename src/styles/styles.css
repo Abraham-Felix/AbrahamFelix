@@ -29,11 +29,13 @@ html {
     font-family: 'Azeret Mono', monospace !important;
     color: #ffffff;
 }
-html {
+body {
     background: linear-gradient( #000000 80% , #000000 70%, #021826);
     height: -webkit-fill-available;
 }
-
+html {
+    height: -webkit-fill-available !important;
+}
 
 /* scroll bar */
 
