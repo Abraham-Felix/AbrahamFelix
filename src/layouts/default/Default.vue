@@ -1,4 +1,5 @@
 <script>
+
 export default {
   data: () => ({
     drawer: false,
@@ -71,6 +72,7 @@ export default {
 
     <v-main class="d-flex align-left justify-left" style="min-height: 300px;">
       <router-view />
+      
     </v-main>
 
   </v-layout>

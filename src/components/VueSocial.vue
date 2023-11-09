@@ -1,0 +1,63 @@
+<template>
+    <VueSocialChat
+      icon
+      class="whatsapp-chat"
+      :attendants="attendants"
+    >
+      <template v-slot:header>
+        <p>Click one of our representatives below to chat on WhatsApp.</p>
+      </template>
+      <template v-slot:button>
+        <img
+          src="https://raw.githubusercontent.com/ktquez/vue-social-chat/master/src/icons/whatsapp.svg"
+          alt="icon whatsapp"
+          aria-hidden="true"
+        >
+      </template>
+      <template v-slot:footer>
+        <small>
+          Call us to
+          <a href="tel:+556381134196" title="Call us">+55 638-113-4196</a>
+          from 10:00am a 6:00pm (PST)
+        </small>
+      </template>
+    </VueSocialChat>
+  </template>
+  
+  <script>
+  export default {
+    name: 'WhatsAppPage',
+    setup () {
+      const attendants = [
+        {
+          app: 'whatsapp',
+          label: 'Hitech Support',
+          name: 'Abraham Felix',
+          number: '526381134196',
+          avatar: {
+            src: 'https://avatars.githubusercontent.com/u/38101725?s=400&u=d3e5a594469e4faa6bf35b6e86bcfa414fe785ce&v=4',
+            alt: 'Abraham Felix Avatar'
+          }
+        }
+      ]
+  
+      return { attendants }
+    }
+  }
+  </script>
+  
+  <style lang="stylus">
+  .whatsapp-chat
+    --whatsapp #021826
+    --vsc-bg-header var(--whatsapp)
+    --vsc-bg-button var(--whatsapp)
+    --vsc-outline-color var(--whatsapp)
+    --vsc-border-color-bottom-header #EEEEEE
+  
+    .vsc-popup-header p
+      font-weight 500
+  
+    button.vsc-popup-button.vsc-popup-button--default {
+        text-align: -webkit-center !important;
+    }
+  </style>
