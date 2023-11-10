@@ -20,7 +20,7 @@ export default createVuetify({
           primary: '#0083F5',
           secondary: '#0CF574',
           tertiary: '#FA0079',
-          bshade: '#181818'
+          bshade: '#000000'
         },
       },
     },
