@@ -15,7 +15,7 @@
         image="https://avatars.githubusercontent.com/u/38101725?s=400&u=d3e5a594469e4faa6bf35b6e86bcfa414fe785ce&v=4"
         size="200">
       </v-avatar>
-      <h3 class=" pt-10 font-weight-bold mb-n1">Abraham's Portfolio</h3>
+      <h3 class=" pt-10 font-weight-bold mb-n1">To Abraham's Portfolio</h3>
       <v-row class="d-flex text-left justify-center">
 
         <v-col cols="8">
@@ -25,7 +25,7 @@
             <v-spacer class="my-3" />
             👨‍🚀 I like creating 2d and 3d art using a pen or tools like Figma, CorelDraw, Splice and coding using Vue.js front-end
             technologies along with popular design frameworks as Vuetify. If you want to know more about my work, open the
-            left side drawer or look around this site, I coded for you to explore it 🚀.
+            left side drawer or look around this site, I coded for you to explore it! 🚀
           </p>
         </v-col>
 

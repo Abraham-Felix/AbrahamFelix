@@ -36,7 +36,7 @@
               {
                 color: 'cyan',
                 year: '2023',
-                cert: 'AGILE UX DESIGN AND RESEARCH'
+                cert: 'Agile UX Design and Research'
               },
               {
                 color: 'green',
@@ -51,17 +51,17 @@
               {
                 color: 'amber',
                 year: '2023',
-                cert: 'NUXT MASTER'
+                cert: 'Nuxt 3'
               },
               {
                 color: 'orange',
                 year: '2021',
-                cert: 'JAVASCRIPT'
+                cert: 'JAVASCRIPT ES6+'
               },
               {
                 color: 'red',
                 year: '2019',
-                cert: 'VISUAL ELEMENTS OF UI'
+                cert: 'Visaul Elements of UI'
               },
               {
                 color: 'blue',

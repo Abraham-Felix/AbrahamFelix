@@ -4,7 +4,7 @@ export default {
   data: () => ({
     drawer: false,
     items: [
-      { title: 'About me', link: '/about' },
+      { title: 'ABOUT ME', link: '/about' },
       // { title: 'Contact', contact: '/contact' }
     ],
     socials: [
@@ -33,7 +33,7 @@ export default {
         <v-app-bar-nav-icon value="drawer button" variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
         <v-toolbar-title>
           <router-link class="text-decoration-none text-white" to="/">
-            Abraham's Portfolio
+             <v-btn class="ml-3" variant="outlined">Home</v-btn>
           </router-link>
         </v-toolbar-title>
       </template>
@@ -62,15 +62,15 @@ export default {
     <v-navigation-drawer  :color="'bshade'" v-model="drawer" expand-on-hover rail color="grey-darken-2">
       <v-list>
         <router-link class="text-decoration-none text-white" to="jobs">
-          <v-list-item prepend-icon="mdi-briefcase" value="jobs" title="Job Experience">
+          <v-list-item prepend-icon="mdi-briefcase" value="jobs" title="JOB EXP">
           </v-list-item>
         </router-link>
         <router-link class="text-decoration-none text-white" to="certifications">
-          <v-list-item prepend-icon="mdi-certificate" value="certifications" title="Certifications">
+          <v-list-item prepend-icon="mdi-certificate" value="certifications" title="CERTIFIED">
           </v-list-item>
         </router-link>
         <router-link class="text-decoration-none text-white" to="figma">
-          <v-list-item prepend-icon="mdi-pencil-ruler" value="figma" title="Figma Project">
+          <v-list-item prepend-icon="mdi-pencil-ruler" value="figma" title="FIGMA EXPO">
           </v-list-item>
         </router-link>
       </v-list>
@@ -86,7 +86,7 @@ export default {
     color="primary"
     elevation="2"
   >    
-  <strong>Get connected with Abraham on social networks!</strong>
+  <strong>🌎 Get connected with Abraham on social networks!</strong>
 
   <v-spacer></v-spacer>
   <v-btn
