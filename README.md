@@ -1,6 +1,6 @@
 # base
 
-👨‍🔧 Abraham's UX Portfolio 🌈🐱‍🏍
+👨‍🔧 Abraham's UI/UX Portfolio 🌈🐱‍🏍
 
 ## Project setup
 
@@ -54,6 +54,15 @@ npm run lint
 pnpm lint
 ```
 
-### Customize configuration
+### Accesibility
 
-See [Configuration Reference](https://vitejs.dev/config/).
+This website cover UX accesibility features
+
+✔ Color blind
+✔ Responsive 
+✔ ADHD reading motivators
+
+Still pending: 
+
+🕒 Screen Narrator
+🕒 Multilanguage
