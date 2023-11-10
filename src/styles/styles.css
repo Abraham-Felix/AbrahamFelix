@@ -49,15 +49,17 @@ p,
 .text-h4,
 .text-h3,
 html {
+ 
     font-family: 'Azeret Mono', monospace !important;
     color: #ffffff;
 }
 body {
-    background: linear-gradient( #000000 93% , #FA0079 97%, #7605F7);
-    height: -webkit-fill-available;
+  height: -webkit-fill-available !important;
+    
 }
 html {
-    height: -webkit-fill-available !important;
+  height: -webkit-fill-available !important;
+  background-color: black;
 }
 
 /* scroll bar */
@@ -81,3 +83,6 @@ html {
   ::-webkit-scrollbar-thumb:hover {
     background: #EEEEEE;
   }
+
+  footer {
+   }

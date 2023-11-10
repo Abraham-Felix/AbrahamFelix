@@ -83,7 +83,8 @@ export default {
     <v-footer
     app
     name="footer"
-    class="bg-black"
+    color="primary"
+    elevation="2"
   >    
   <strong>Get connected with Abraham on social networks!</strong>
 
