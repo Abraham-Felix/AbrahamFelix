@@ -6,5 +6,6 @@
 
 // https://vuetifyjs.com/features/sass-variables/`
 @use 'vuetify/settings' with (
-  $button-height: 30px
+  $button-height: 30px,
+  $divider-opacity: 30%
 );

@@ -3,21 +3,23 @@
 
 
 /* Color Palette notes:
-P: #172026
-H: #FF330A
-A: #0A14F0
-Complementary: #FF0897 #FFFC01 #03EAF0
-Sections Alt: #EEEEEE and #FFFFFF 
+Purple - Royalty, Luxury, Spirituality & Ambition.
+Pink - Compassion, Sincerity, Sophistication, Sweet.
+Blue - Trust, Peace, Loyalty, Competence.
+Yellow - Creativity, Happiness, Warmth, Cheer. 
+Green - Nature, Healing, Freshness, Quality.
+Black - Formality, Dramatic, Sophistication, Security.
+White - Clean, Simplicity, Innocence, Honest.
 */
 a {
   color: #0083F5
 }
 /* Color Theme Swatches in Hex */
-.toonycoon-1-hex { color: #7605F7; }
-.toonycoon-2-hex { color: #FA0079; }
-.toonycoon-3-hex { color: #0083F5; }
-.toonycoon-4-hex { color: #F5F318; }
-.toonycoon-5-hex { color: #0CF574; }
+.port-purp { color: #7605F7; }
+.port-pink { color: #FA0079; }
+.port-blue { color: #0083F5; }
+.port-yellow { color: #F5F318; }
+.port-green { color: #0CF574; }
 
 /* Color Theme Swatches in RGBA */
 .toonycoon-1-rgba { color: rgba(118, 5, 247, 1); }

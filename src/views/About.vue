@@ -12,7 +12,7 @@
         🍕 Let's learn about myself 
       </v-card-title>
   
-      <v-divider/>
+      <v-divider color="tertiary" thickness="5" />
     
       <v-virtual-scroll :items="items"  height="620">
       <v-list-item class="mt-5" >
@@ -24,7 +24,7 @@
             <p class="mb-3">
           📐 I like creating 2D and 3D art using a pen or tools like Figma, CorelDraw, Spline, and coding using Vue.js front-end technologies along with popular design frameworks such as Vuetify.
             </p>
-          <v-divider class="my-3" />
+          <v-divider color="secondary" thickness="5" class="my-3" />
           <p class="mb-3">
            🌌 My journey started as a young fellow, isolated in thought.  
         </p>
@@ -40,7 +40,7 @@
         <p class="mb-3">
             From there it has been a journey of continuous growth and creative exploration. A commitment to myself to staying at the forefront of digital design and UX industry trends. I believe in Art and the power that it has to help others, and the proof is me. A great design is not just about 🌈 aesthetics; it's about creating solutions that enhance the way we live, work, and connect with the world 👨‍💻.
         </p>   
-        <v-divider class="my-3" />
+        <v-divider color="fiftiary" thickness="5" class="my-3" />
         <p class="mb-3">
             Hobbies :
         </p>  
@@ -66,12 +66,12 @@
             🎧 | Listening or making music
         </li>
   </div>
-         <v-divider class="my-3" />
+         <v-divider color="quartary" thickness="5" class="my-3" />
           <p class="my-3">
             Psychometric :
           </p>
           <v-img src="@/assets/personality/psychometric.png"/>
-          <v-divider class="my-3" />
+          <v-divider color="primary" thickness="5" class="my-3" />
           <p class="my-3">
             CV :
           </p>
