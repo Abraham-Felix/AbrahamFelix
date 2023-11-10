@@ -7,7 +7,8 @@
       <template v-slot:header>
         <p>Hire a UI/UX Specialist Today!</p>
       </template>
-      <template v-slot:button>
+      
+      <template  v-slot:button>
         <img
           src="https://raw.githubusercontent.com/ktquez/vue-social-chat/master/src/icons/whatsapp.svg"
           alt="icon whatsapp"
@@ -15,7 +16,7 @@
         >
       </template>
       <template v-slot:footer>
-        <small>
+        <small  >
           Call us to
           <a href="tel:+556381134196" title="Call us">+55 638-113-4196</a>
           from 10:00am a 6:00pm (PST)
@@ -48,11 +49,10 @@
   
   <style lang="stylus">
   .whatsapp-chat
-    --whatsapp #021826
+    --whatsapp black
     --vsc-bg-header var(--whatsapp)
     --vsc-bg-button var(--whatsapp)
     --vsc-outline-color var(--whatsapp)
-    --vsc-border-color-bottom-header #EEEEEES
   
     .vsc-popup-header p
       font-weight 500
@@ -62,10 +62,22 @@
         text-align: -webkit-center !important;
         margin-bottom: 50px;
     }
+    .vsc-popup-footer, .vsc-popup-body  {
+      background: black ;
+    }
+    .vsc-popup-body__link  {
+      color:white ;
+    }
+    
 
     @media screen and (max-width: 550px) {
       button.vsc-popup-button.vsc-popup-button--default {
         margin-bottom: 90px;
     }
     }
+  .vsc-popup-body__link:focus, .vsc-popup-body__link:hover {
+    background-color: black;
+    border: 1px white solid;
+    color:white
+}
   </style>

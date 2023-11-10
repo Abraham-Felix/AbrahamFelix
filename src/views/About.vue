@@ -66,11 +66,25 @@
             🎧 | Listening or making music
         </li>
   </div>
-  <v-divider class="my-3" />
+         <v-divider class="my-3" />
           <p class="my-3">
             Psychometric :
-                    </p>
-                    <v-img src="@/assets/personality/psychometric.png"/>
+          </p>
+          <v-img src="@/assets/personality/psychometric.png"/>
+          <v-divider class="my-3" />
+          <p class="my-3">
+            CV :
+          </p>
+          <v-img src="@/assets/personality/Resume-Abraham--Felix-01.png"/>
+          <v-img src="@/assets/personality/Resume-Abraham--Felix-02.png"/>
+          <v-img src="@/assets/personality/Resume-Abraham--Felix-03.png"/>
+          <v-img src="@/assets/personality/Resume-Abraham--Felix-04.png"/>
+          <v-img src="@/assets/personality/Resume-Abraham--Felix-05.png"/>
+          <v-img src="@/assets/personality/Resume-Abraham--Felix-06.png"/>
+          <v-img src="@/assets/personality/Resume-Abraham--Felix-07.png"/>
+          <v-img src="@/assets/personality/Resume-Abraham--Felix-08.png"/>
+          <v-img src="@/assets/personality/Resume-Abraham--Felix-09.png"/>
+          <v-img src="@/assets/personality/Resume-Abraham--Felix-10.png"/>
           
           </v-list-item>
         </v-virtual-scroll>

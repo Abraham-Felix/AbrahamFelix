@@ -10,7 +10,8 @@ export default {
     socials: [
         {icon:'mdi-github', link: 'https://github.com/abraham-felix'},
         {icon: 'mdi-linkedin' , link: 'https://www.linkedin.com/in/abraham-felix/'},
-        {icon: 'mdi-stack-overflow', link: 'https://stackoverflow.com/users/17039951/abraham-felix'}
+        {icon: 'mdi-stack-overflow', link: 'https://stackoverflow.com/users/17039951/abraham-felix'},
+        {icon: 'mdi-gmail', link: 'mailto:apesyntax@gmail.com'}
       ],
     // values can be 0 or -1
     order: -1,
@@ -26,7 +27,7 @@ export default {
 
 <template>
   <v-layout class="rounded rounded-md">
-    <v-app-bar :elevation="3" :color="'#021826'" :order="order" color="grey-lighten-2" flat location="top"
+    <v-app-bar :elevation="3" :color="'black'" :order="order" color="grey-lighten-2" flat location="top"
       density="comfortable">
       <template #prepend>
         <v-app-bar-nav-icon value="drawer button" variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
@@ -48,7 +49,7 @@ export default {
               Activator slot
             </v-avatar>
           </template>
-          <v-list class="mr-n3" :bg-color="'#021826'">
+          <v-list class="mr-n3" :bg-color="'bshade'">
             <v-list-item v-for="(item, index) in items" :to="item.link" :key="index" :value="index">
               <v-list-item-title>{{ item.title }}</v-list-item-title>
             </v-list-item>
@@ -58,7 +59,7 @@ export default {
       </template>
     </v-app-bar>
 
-    <v-navigation-drawer :color="'#021826'" v-model="drawer" expand-on-hover rail color="grey-darken-2">
+    <v-navigation-drawer  :color="'bshade'" v-model="drawer" expand-on-hover rail color="grey-darken-2">
       <v-list>
         <router-link class="text-decoration-none text-white" to="jobs">
           <v-list-item prepend-icon="mdi-briefcase" value="jobs" title="Job Experience">

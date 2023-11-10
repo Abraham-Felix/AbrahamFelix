@@ -9,6 +9,29 @@ A: #0A14F0
 Complementary: #FF0897 #FFFC01 #03EAF0
 Sections Alt: #EEEEEE and #FFFFFF 
 */
+a {
+  color: #0083F5
+}
+/* Color Theme Swatches in Hex */
+.toonycoon-1-hex { color: #7605F7; }
+.toonycoon-2-hex { color: #FA0079; }
+.toonycoon-3-hex { color: #0083F5; }
+.toonycoon-4-hex { color: #F5F318; }
+.toonycoon-5-hex { color: #0CF574; }
+
+/* Color Theme Swatches in RGBA */
+.toonycoon-1-rgba { color: rgba(118, 5, 247, 1); }
+.toonycoon-2-rgba { color: rgba(250, 0, 121, 1); }
+.toonycoon-3-rgba { color: rgba(0, 131, 245, 1); }
+.toonycoon-4-rgba { color: rgba(245, 243, 24, 1); }
+.toonycoon-5-rgba { color: rgba(12, 245, 116, 1); }
+
+/* Color Theme Swatches in HSLA */
+.toonycoon-1-hsla { color: hsla(268, 96, 49, 1); }
+.toonycoon-2-hsla { color: hsla(330, 100, 49, 1); }
+.toonycoon-3-hsla { color: hsla(207, 100, 48, 1); }
+.toonycoon-4-hsla { color: hsla(59, 91, 52, 1); }
+.toonycoon-5-hsla { color: hsla(146, 92, 50, 1); }
 
 
 h1,
@@ -30,7 +53,7 @@ html {
     color: #ffffff;
 }
 body {
-    background: linear-gradient( #000000 80% , #000000 70%, #021826);
+    background: linear-gradient( #000000 93% , #FA0079 97%, #7605F7);
     height: -webkit-fill-available;
 }
 html {
