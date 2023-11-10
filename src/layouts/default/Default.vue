@@ -4,9 +4,14 @@ export default {
   data: () => ({
     drawer: false,
     items: [
-      { title: 'About', link: '/about' },
-      { title: 'Contact', contact: '/contact' }
+      { title: 'About me', link: '/about' },
+      // { title: 'Contact', contact: '/contact' }
     ],
+    socials: [
+        {icon:'mdi-github', link: 'https://github.com/abraham-felix'},
+        {icon: 'mdi-linkedin' , link: 'https://www.linkedin.com/in/abraham-felix/'},
+        {icon: 'mdi-stack-overflow', link: 'https://stackoverflow.com/users/17039951/abraham-felix'}
+      ],
     // values can be 0 or -1
     order: -1,
   }),
@@ -74,7 +79,27 @@ export default {
       <router-view />
       
     </v-main>
+    <v-footer
+    app
+    name="footer"
+    class="bg-black"
+  >    
+  <strong>Get connected with Abraham on social networks!</strong>
 
+  <v-spacer></v-spacer>
+  <v-btn
+  v-for="social in socials"
+  :key="icon"
+  class="mx-4"
+  :icon="social.icon"
+  :href="social.link"
+  target="_blank"
+  variant="plain"
+  size="small"
+></v-btn>
+
+  </v-footer>
   </v-layout>
+
 </template>
 

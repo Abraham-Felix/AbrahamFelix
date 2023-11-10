@@ -5,7 +5,7 @@
       :attendants="attendants"
     >
       <template v-slot:header>
-        <p>Click one of our representatives below to chat on WhatsApp.</p>
+        <p>Hire a UI/UX Specialist Today!</p>
       </template>
       <template v-slot:button>
         <img
@@ -31,7 +31,7 @@
       const attendants = [
         {
           app: 'whatsapp',
-          label: 'Hitech Support',
+          label: 'Software Developer | UI/UX',
           name: 'Abraham Felix',
           number: '526381134196',
           avatar: {
@@ -52,12 +52,20 @@
     --vsc-bg-header var(--whatsapp)
     --vsc-bg-button var(--whatsapp)
     --vsc-outline-color var(--whatsapp)
-    --vsc-border-color-bottom-header #EEEEEE
+    --vsc-border-color-bottom-header #EEEEEES
   
     .vsc-popup-header p
       font-weight 500
+
   
     button.vsc-popup-button.vsc-popup-button--default {
         text-align: -webkit-center !important;
+        margin-bottom: 50px;
+    }
+
+    @media screen and (max-width: 550px) {
+      button.vsc-popup-button.vsc-popup-button--default {
+        margin-bottom: 90px;
+    }
     }
   </style>
