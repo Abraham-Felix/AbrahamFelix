@@ -4,7 +4,7 @@ export default {
   data: () => ({
     drawer: false,
     items: [
-      { title: 'ABOUT ME', link: '/about' },
+      { title: 'ABOUT ME', link: '/about', icon: "mdi-account-tie" },
       // { title: 'Contact', contact: '/contact' }
     ],
     socials: [
@@ -45,13 +45,12 @@ export default {
           <template v-slot:activator="{ props }">
             <v-avatar
               image="https://avatars.githubusercontent.com/u/38101725?s=400&u=d3e5a594469e4faa6bf35b6e86bcfa414fe785ce&v=4"
-              size="44" color="primary" v-bind="props">
-              Activator slot
+              size="44" color="primary" v-bind="props" class="hover">
+              Activator slot 
             </v-avatar>
           </template>
-          <v-list class="mr-n3" :bg-color="'bshade'">
-            <v-list-item v-for="(item, index) in items" :to="item.link" :key="index" :value="index">
-              <v-list-item-title>{{ item.title }}</v-list-item-title>
+          <v-list :bg-color="'bshade'">
+            <v-list-item :title="item.title" :prepend-icon="item.icon" v-for="(item, index) in items" :to="item.link" :key="index"  :value="index">
             </v-list-item>
           </v-list>
         </v-menu>
