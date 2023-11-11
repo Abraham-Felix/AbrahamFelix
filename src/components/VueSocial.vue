@@ -17,8 +17,11 @@
       </template>
       <template v-slot:footer>
         <small  >
-          Call us to
-          <a href="tel:+556381134196" title="Call us">+55 638-113-4196</a>
+          <v-icon color="secondary" icon="mdi-phone"></v-icon>
+          Reach me at
+          <a href="tel:+526381134196" title="Call us">(+52) 638-113-4196</a>
+          <br>
+          <v-icon icon="mdi-clock"></v-icon>
           from 10:00am a 6:00pm (PST)
         </small>
       </template>
