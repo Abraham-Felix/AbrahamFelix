@@ -48,7 +48,7 @@
 
 
         <v-col cols="auto">
-          <v-btn to="/about" min-width="228" rel="noopener noreferrer" size="x-large"  variant="outlined">
+          <v-btn rounded="lg" to="/about" min-width="228" rel="noopener noreferrer" size="x-large"  variant="outlined">
             <v-icon icon="mdi-account-tie" size="large" start />
 
             About me

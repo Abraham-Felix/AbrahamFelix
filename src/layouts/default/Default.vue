@@ -33,7 +33,7 @@ export default {
         <v-app-bar-nav-icon value="drawer button" variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
         <v-toolbar-title>
           <router-link class="text-decoration-none text-white" to="/">
-             <v-btn class="ml-3" variant="outlined">Home</v-btn>
+             <v-btn prepend-icon="mdi-home" class="ml-3" rounded="lg" variant="outlined">Home</v-btn>
           </router-link>
         </v-toolbar-title>
       </template>
