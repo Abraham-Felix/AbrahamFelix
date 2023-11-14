@@ -66,3 +66,8 @@ Still pending:
 
 🕒 Screen Narrator
 🕒 Multilanguage
+
+### Branches
+
+Master - Abraham Felix
+Issues - Collaborators
