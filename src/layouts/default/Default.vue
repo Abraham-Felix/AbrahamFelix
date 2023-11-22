@@ -39,7 +39,17 @@ export default {
       </template>
 
       <template #append>
-
+        
+        <div  class="locale-changer">
+          
+          <select v-model="$i18n.locale">
+           
+            <option  v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale">{{ locale }}</option>
+          
+          </select>
+          
+      
+        </div>
 
         <v-menu>
           <template v-slot:activator="{ props }">
@@ -70,6 +80,10 @@ export default {
         </router-link>
         <router-link class="text-decoration-none text-white" to="figma">
           <v-list-item prepend-icon="mdi-pencil-ruler" value="figma" title="FIGMA EXPO">
+          </v-list-item>
+        </router-link>
+        <router-link class="text-decoration-none text-white" to="css">
+          <v-list-item prepend-icon="mdi-language-css3" value="css" title="CSS FLEX GRID">
           </v-list-item>
         </router-link>
       </v-list>
