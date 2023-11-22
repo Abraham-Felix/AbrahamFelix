@@ -8,6 +8,7 @@ export default {
       // { title: 'Contact', contact: '/contact' }
     ],
     socials: [
+      {icon:'mdi-codepen', link: 'https://codepen.io/apesyntax/pens/showcase'},
         {icon:'mdi-github', link: 'https://github.com/abraham-felix'},
         {icon: 'mdi-linkedin' , link: 'https://www.linkedin.com/in/abraham-felix/'},
         {icon: 'mdi-stack-overflow', link: 'https://stackoverflow.com/users/17039951/abraham-felix'},
@@ -27,7 +28,7 @@ export default {
 
 <template>
   <v-layout class="rounded rounded-md">
-    <v-app-bar :elevation="3" :color="'black'" :order="order" color="grey-lighten-2" flat location="top"
+    <v-app-bar  scroll-behavior="fade-image inverted" image="https://wallpapers.com/images/hd/starry-night-and-celestial-bodies-hoztgf3afa0blfvc.webp" :elevation="3" :color="'black'" :order="order" color="grey-lighten-2" flat location="top"
       density="comfortable">
       <template #prepend>
         <v-app-bar-nav-icon value="drawer button" variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>

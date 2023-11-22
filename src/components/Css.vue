@@ -231,6 +231,224 @@
           </a>
 
           
+          <a class="module" style="display:flex;text-decoration:none;" href="https://abrahams-portfolio.netlify.app/">
+       
+            <img src="https://avatars.githubusercontent.com/u/38101725?s=400&u=5c89295427ea25ffa994a4e2c4b5ddbc931934e1&v=4"/>
+            <div class="text-box">
+              <hr class="rounded"/>
+              <p> 
+                <span> 
+                  👨‍🏫 | Abraham Felix </span>
+                <br>
+                  👨‍🎨 | Director of Design 
+                <br>
+                  👨‍💻 | Flex Box & Grid Pro 
+                <br>
+                <center> 💰 Hire me! </center>
+              </p>
+            </div>
+          </a>
+
+          <a class="module" style="display:flex;text-decoration:none;" href="https://abrahams-portfolio.netlify.app/">
+       
+            <img src="https://avatars.githubusercontent.com/u/38101725?s=400&u=5c89295427ea25ffa994a4e2c4b5ddbc931934e1&v=4"/>
+            <div class="text-box">
+              <hr class="rounded"/>
+              <p> 
+                <span> 
+                  👨‍🏫 | Abraham Felix </span>
+                <br>
+                  👨‍🎨 | Director of Design 
+                <br>
+                  👨‍💻 | Flex Box & Grid Pro 
+                <br>
+                <center> 💰 Hire me! </center>
+              </p>
+            </div>
+          </a>
+
+          <a class="module" style="display:flex;text-decoration:none;" href="https://abrahams-portfolio.netlify.app/">
+       
+            <img src="https://avatars.githubusercontent.com/u/38101725?s=400&u=5c89295427ea25ffa994a4e2c4b5ddbc931934e1&v=4"/>
+            <div class="text-box">
+              <hr class="rounded"/>
+              <p> 
+                <span> 
+                  👨‍🏫 | Abraham Felix </span>
+                <br>
+                  👨‍🎨 | Director of Design 
+                <br>
+                  👨‍💻 | Flex Box & Grid Pro 
+                <br>
+                <center> 💰 Hire me! </center>
+              </p>
+            </div>
+          </a>
+
+          
+          <a class="module" style="display:flex;text-decoration:none;" href="https://abrahams-portfolio.netlify.app/">
+       
+            <img src="https://avatars.githubusercontent.com/u/38101725?s=400&u=5c89295427ea25ffa994a4e2c4b5ddbc931934e1&v=4"/>
+            <div class="text-box">
+              <hr class="rounded"/>
+              <p> 
+                <span> 
+                  👨‍🏫 | Abraham Felix </span>
+                <br>
+                  👨‍🎨 | Director of Design 
+                <br>
+                  👨‍💻 | Flex Box & Grid Pro 
+                <br>
+                <center> 💰 Hire me! </center>
+              </p>
+            </div>
+          </a>
+
+          <a class="module" style="display:flex;text-decoration:none;" href="https://abrahams-portfolio.netlify.app/">
+       
+            <img src="https://avatars.githubusercontent.com/u/38101725?s=400&u=5c89295427ea25ffa994a4e2c4b5ddbc931934e1&v=4"/>
+            <div class="text-box">
+              <hr class="rounded"/>
+              <p> 
+                <span> 
+                  👨‍🏫 | Abraham Felix </span>
+                <br>
+                  👨‍🎨 | Director of Design 
+                <br>
+                  👨‍💻 | Flex Box & Grid Pro 
+                <br>
+                <center> 💰 Hire me! </center>
+              </p>
+            </div>
+          </a>
+
+          <a class="module" style="display:flex;text-decoration:none;" href="https://abrahams-portfolio.netlify.app/">
+       
+            <img src="https://avatars.githubusercontent.com/u/38101725?s=400&u=5c89295427ea25ffa994a4e2c4b5ddbc931934e1&v=4"/>
+            <div class="text-box">
+              <hr class="rounded"/>
+              <p> 
+                <span> 
+                  👨‍🏫 | Abraham Felix </span>
+                <br>
+                  👨‍🎨 | Director of Design 
+                <br>
+                  👨‍💻 | Flex Box & Grid Pro 
+                <br>
+                <center> 💰 Hire me! </center>
+              </p>
+            </div>
+          </a>
+
+          <a class="module" style="display:flex;text-decoration:none;" href="https://abrahams-portfolio.netlify.app/">
+       
+            <img src="https://avatars.githubusercontent.com/u/38101725?s=400&u=5c89295427ea25ffa994a4e2c4b5ddbc931934e1&v=4"/>
+            <div class="text-box">
+              <hr class="rounded"/>
+              <p> 
+                <span> 
+                  👨‍🏫 | Abraham Felix </span>
+                <br>
+                  👨‍🎨 | Director of Design 
+                <br>
+                  👨‍💻 | Flex Box & Grid Pro 
+                <br>
+                <center> 💰 Hire me! </center>
+              </p>
+            </div>
+          </a>
+
+          <a class="module" style="display:flex;text-decoration:none;" href="https://abrahams-portfolio.netlify.app/">
+       
+            <img src="https://avatars.githubusercontent.com/u/38101725?s=400&u=5c89295427ea25ffa994a4e2c4b5ddbc931934e1&v=4"/>
+            <div class="text-box">
+              <hr class="rounded"/>
+              <p> 
+                <span> 
+                  👨‍🏫 | Abraham Felix </span>
+                <br>
+                  👨‍🎨 | Director of Design 
+                <br>
+                  👨‍💻 | Flex Box & Grid Pro 
+                <br>
+                <center> 💰 Hire me! </center>
+              </p>
+            </div>
+          </a>
+
+          <a class="module" style="display:flex;text-decoration:none;" href="https://abrahams-portfolio.netlify.app/">
+       
+            <img src="https://avatars.githubusercontent.com/u/38101725?s=400&u=5c89295427ea25ffa994a4e2c4b5ddbc931934e1&v=4"/>
+            <div class="text-box">
+              <hr class="rounded"/>
+              <p> 
+                <span> 
+                  👨‍🏫 | Abraham Felix </span>
+                <br>
+                  👨‍🎨 | Director of Design 
+                <br>
+                  👨‍💻 | Flex Box & Grid Pro 
+                <br>
+                <center> 💰 Hire me! </center>
+              </p>
+            </div>
+          </a>
+
+          <a class="module" style="display:flex;text-decoration:none;" href="https://abrahams-portfolio.netlify.app/">
+       
+            <img src="https://avatars.githubusercontent.com/u/38101725?s=400&u=5c89295427ea25ffa994a4e2c4b5ddbc931934e1&v=4"/>
+            <div class="text-box">
+              <hr class="rounded"/>
+              <p> 
+                <span> 
+                  👨‍🏫 | Abraham Felix </span>
+                <br>
+                  👨‍🎨 | Director of Design 
+                <br>
+                  👨‍💻 | Flex Box & Grid Pro 
+                <br>
+                <center> 💰 Hire me! </center>
+              </p>
+            </div>
+          </a>
+
+          <a class="module" style="display:flex;text-decoration:none;" href="https://abrahams-portfolio.netlify.app/">
+       
+            <img src="https://avatars.githubusercontent.com/u/38101725?s=400&u=5c89295427ea25ffa994a4e2c4b5ddbc931934e1&v=4"/>
+            <div class="text-box">
+              <hr class="rounded"/>
+              <p> 
+                <span> 
+                  👨‍🏫 | Abraham Felix </span>
+                <br>
+                  👨‍🎨 | Director of Design 
+                <br>
+                  👨‍💻 | Flex Box & Grid Pro 
+                <br>
+                <center> 💰 Hire me! </center>
+              </p>
+            </div>
+          </a>
+
+          <a class="module" style="display:flex;text-decoration:none;" href="https://abrahams-portfolio.netlify.app/">
+       
+            <img src="https://avatars.githubusercontent.com/u/38101725?s=400&u=5c89295427ea25ffa994a4e2c4b5ddbc931934e1&v=4"/>
+            <div class="text-box">
+              <hr class="rounded"/>
+              <p> 
+                <span> 
+                  👨‍🏫 | Abraham Felix </span>
+                <br>
+                  👨‍🎨 | Director of Design 
+                <br>
+                  👨‍💻 | Flex Box & Grid Pro 
+                <br>
+                <center> 💰 Hire me! </center>
+              </p>
+            </div>
+          </a>
+
+          
               
          
           
