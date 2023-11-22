@@ -21,10 +21,26 @@
     class="ma-2"
     color="secondary"
     text-color="white"
-    append-icon="mdi-star"
+    append-icon="mdi-check"
   >
     Open to collaborate
   </v-chip>
+  <v-chip
+    class="ma-2"
+    color="tertiary"
+    text-color="white"
+    append-icon="mdi-language-css3"
+  >
+    CSS Expert
+  </v-chip>
+  <v-chip
+  class="ma-2"
+  color="primary"
+  text-color="white"
+  append-icon="mdi-language-html5"
+>
+  HTML Expert
+</v-chip>
   </div>
        <v-row class="d-flex text-left justify-center">
 
