@@ -100,7 +100,7 @@ export default {
     color="primary"
     elevation="2"
   >    
-  <strong>🌎 Get connected with Abraham on social networks!</strong>
+  <strong>🌎 Want more? 👉</strong>
 
   <v-spacer></v-spacer>
   <v-btn
