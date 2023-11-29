@@ -1,3 +1,17 @@
 {
-  "message": "Noticias, Datos y Reportes"
+  "message": "Noticias, Datos y Reportes",
+  "welcometxt": "Bienvenidos",
+  "welcomep1": "👋 Hola, soy Abraham Félix. Un desarrollador de software mexicano dedicado al Diseño Centrado en el Usuario conocido como UX desde 2018.",
+  "welcomep2": "👨‍🚀 Me gusta crear arte en 2D y 3D usando un lápiz o herramientas como Figma, CorelDraw, Splice y codificar usando tecnologías front-end Vue.js junto con marcos de diseño populares como Vuetify. ¡Colaboremos juntos!",
+  "welcomep3": "Si quieres saber más sobre mi trabajo, abre la barra de navegacion vertical del lado izquierdo o mira este sitio, ¡Que e codificado para que lo explores! 🚀",
+  "welcomechip1": "Abierto a colaboración",
+  "welcomechip2": "Experto en CSS",
+  "welcomechip3": "Experto en HTML",
+  "aboutmebtn": "Acerca de mi",
+  "footertext": "Quieres más?",
+  "homebtn": "Casa",
+  "sidenav1": "EXP Laboral",
+  "sidenav2": "Certificaciones",
+  "sidenav3": "Expo de Figma",
+  "sidenav4": "CSS Flex Grid"
 }

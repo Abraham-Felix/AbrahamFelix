@@ -4,7 +4,7 @@ export default {
   data: () => ({
     drawer: false,
     items: [
-      { title: 'ABOUT ME', link: '/about', icon: "mdi-account-tie" },
+      {  link: '/about', icon: "mdi-account-tie" },
       // { title: 'Contact', contact: '/contact' }
     ],
     socials: [
@@ -34,18 +34,25 @@ export default {
         <v-app-bar-nav-icon value="drawer button" variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
         <v-toolbar-title>
           <router-link class="text-decoration-none text-white" to="/">
-             <v-btn prepend-icon="mdi-home" class="ml-3" rounded="lg" variant="outlined">Home</v-btn>
+             <v-btn prepend-icon="mdi-home" class="ml-3" rounded="lg" variant="outlined">{{ $t('homebtn') }}</v-btn>
           </router-link>
         </v-toolbar-title>
       </template>
-
+     <!-- Internationalization switch btn -->
       <template #append>
         
         <div  class="locale-changer">
-          
-          <select v-model="$i18n.locale">
+          <v-icon size="xs" icon="mdi-translate"></v-icon>  
+          <select  class="mr-5 text-capitalize" style="color:white" v-model="$i18n.locale">
            
-            <option  v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale">{{ locale }}</option>
+            <option 
+            style="background-color:black" 
+            v-for="locale in $i18n.availableLocales" 
+            :key="`locale-${locale}`" 
+            :value="locale"
+            >
+            -{{ locale }}
+          </option>
           
           </select>
           
@@ -61,7 +68,7 @@ export default {
             </v-avatar>
           </template>
           <v-list :bg-color="'bshade'">
-            <v-list-item :title="item.title" :prepend-icon="item.icon" v-for="(item, index) in items" :to="item.link" :key="index"  :value="index">
+            <v-list-item :title="$t('aboutmebtn')" :prepend-icon="item.icon" v-for="(item, index) in items" :to="item.link" :key="index"  :value="index">
             </v-list-item>
           </v-list>
         </v-menu>
@@ -72,19 +79,19 @@ export default {
     <v-navigation-drawer  :color="'bshade'" v-model="drawer" expand-on-hover rail color="grey-darken-2">
       <v-list>
         <router-link class="text-decoration-none text-white" to="jobs">
-          <v-list-item prepend-icon="mdi-briefcase" value="jobs" title="JOB EXP">
+          <v-list-item prepend-icon="mdi-briefcase" value="jobs" :title="$t('sidenav1')">
           </v-list-item>
         </router-link>
         <router-link class="text-decoration-none text-white" to="certifications">
-          <v-list-item prepend-icon="mdi-certificate" value="certifications" title="CERTIFIED">
+          <v-list-item prepend-icon="mdi-certificate" value="certifications" :title="$t('sidenav2')">
           </v-list-item>
         </router-link>
         <router-link class="text-decoration-none text-white" to="figma">
-          <v-list-item prepend-icon="mdi-pencil-ruler" value="figma" title="FIGMA EXPO">
+          <v-list-item prepend-icon="mdi-pencil-ruler" value="figma" :title="$t('sidenav3')">
           </v-list-item>
         </router-link>
         <router-link class="text-decoration-none text-white" to="css">
-          <v-list-item prepend-icon="mdi-language-css3" value="css" title="CSS FLEX GRID">
+          <v-list-item prepend-icon="mdi-language-css3" value="css" :title="$t('sidenav4')">
           </v-list-item>
         </router-link>
       </v-list>
@@ -100,7 +107,7 @@ export default {
     color="primary"
     elevation="2"
   >    
-  <strong>🌎 Want more? 👉</strong>
+  <strong> 🌎 {{ $t('footertext') }} 👉 </strong> 
 
   <v-spacer></v-spacer>
   <v-btn

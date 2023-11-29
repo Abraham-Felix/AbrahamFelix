@@ -8,7 +8,7 @@
   </Vue3Spline>
   <v-container class="pa-0 ">
     <v-responsive class="align-center text-center ">
-      <h1 class="text-h2 py-10">Welcome</h1>
+      <h1 class="text-h2 py-10">{{ $t('welcometxt') }}</h1>
 
   
       <v-avatar
@@ -23,7 +23,7 @@
     text-color="white"
     append-icon="mdi-check"
   >
-    Open to collaborate
+    {{ $t('welcomechip1') }}
   </v-chip>
   <v-chip
     class="ma-2"
@@ -31,7 +31,7 @@
     text-color="white"
     append-icon="mdi-language-css3"
   >
-    CSS Expert
+  {{ $t('welcomechip2') }}
   </v-chip>
   <v-chip
   class="ma-2"
@@ -39,21 +39,18 @@
   text-color="white"
   append-icon="mdi-language-html5"
 >
-  HTML Expert
+{{ $t('welcomechip3') }}
 </v-chip>
   </div>
        <v-row class="d-flex text-left justify-center">
 
         <v-col cols="8">
           <p class=" pt-10 text-body-2 font-weight-lighs mb-n1">
-            👋 Hello, I'm Abraham Felix. Just a software developer from Mexico dedicated in User Centric Design known as
-            UX since 2018. 
+            {{ $t('welcomep1') }} 
             <v-spacer class="my-3" />
-            👨‍🚀 I like creating 2d and 3d art using a pen or tools like Figma, CorelDraw, Splice and coding using Vue.js front-end
-            technologies along with popular design frameworks as Vuetify. Let's collaborate together!
+            {{ $t('welcomep2') }}
             <v-spacer class="my-3" />
-            If you want to know more about my work, open the
-            left side drawer or look around this site, I coded for you to explore it! 🚀
+            {{  $t('welcomep3')  }}  
           </p>
         </v-col>
 
@@ -66,8 +63,7 @@
         <v-col cols="auto">
           <v-btn rounded="lg" to="/about" min-width="228" rel="noopener noreferrer" size="x-large"  variant="outlined">
             <v-icon icon="mdi-account-tie" size="large" start />
-
-            About me
+            {{ $t('aboutmebtn') }}
           </v-btn>
         </v-col>
 

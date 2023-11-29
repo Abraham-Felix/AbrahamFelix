@@ -17,6 +17,7 @@ import 'vue-social-chat/dist/style.css'
 //vue i18n
 import { createI18n } from 'vue-i18n'
 const i18n = createI18n({
+  // <h1 class="pb-10">{{ $t('message')}}</h1> <-- Example of i18n variable
   // something vue-i18n options here ...
   locale: 'en',
   fallbackLocale: 'en',

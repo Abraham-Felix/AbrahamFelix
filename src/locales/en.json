@@ -1,3 +1,17 @@
 {
-  "message": "Newsletters, data and reports"
+  "message": "Newsletters, data and reports",
+  "welcometxt": "Welcome",
+  "welcomep1": "👋 Hello, I'm Abraham Felix. Just a software developer from Mexico dedicated in User user-centric design known as UX since 2018.",
+  "welcomep2": "👨‍🚀 I like creating 2d and 3d art using a pen or tools like Figma, CorelDraw, Splice, and coding using Vue.js front-end technologies along with popular design frameworks as Vuetify. Let's collaborate together!",
+  "welcomep3": "If you want to know more about my work, open the left side drawer or look around this site, I coded for you to explore it! 🚀",
+  "welcomechip1": "Open to collaborate",
+  "welcomechip2": "CSS Expert",
+  "welcomechip3": "HTML Expert",
+  "aboutmebtn": "About me",
+  "footertext": "Want more?",
+  "homebtn": "Home",
+  "sidenav1": "Jobs XP",
+  "sidenav2": "Certified",
+  "sidenav3": "Figma Expo",
+  "sidenav4": "CSS Flex Grid"
 }
