@@ -58,10 +58,10 @@ pnpm lint
 
 This website cover UX accesibility features
 
-✔ Color blind
-✔ Responsive 
-✔ ADHD reading motivators
-✔ Multilanguage ( En, ES )
+- ✔ Color blind
+- ✔ Responsive 
+- ✔ ADHD reading motivators
+- ✔ Multilanguage ( En, ES )
 
 Still pending: 
 
@@ -69,6 +69,5 @@ Still pending:
 
 ### Branches
 
-Master - Abraham Felix
-
-Issues - Collaborators
+- Master:  Abraham Felix
+- Issues:  Collaborators
