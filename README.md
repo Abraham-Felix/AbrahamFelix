@@ -61,13 +61,14 @@ This website cover UX accesibility features
 ✔ Color blind
 ✔ Responsive 
 ✔ ADHD reading motivators
+✔ Multilanguage ( En, ES )
 
 Still pending: 
 
 🕒 Screen Narrator
-🕒 Multilanguage
 
 ### Branches
 
 Master - Abraham Felix
+
 Issues - Collaborators
