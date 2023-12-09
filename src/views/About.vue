@@ -71,25 +71,25 @@
             IQ :
           </p>
           <div>I was diagnosed with High IQ, also known as Super Gifted, in kindergarten, along with ADHD. 🧠🌈
-
+            <br>
             I learned to speak English and Spanish when I was 4 years old. The principal of my school in Avondale noticed my natural abilities to learn and solve problems, so they tested me.
-            
+            <br>
             Things didn't go as I thought they would. After a while, my mom was happy about it, and everything was normal until the school started using me in 1st grade to teach 6th-grade students. Things went left in a bad way because people started to look at me as if I was weird or abnormal. It really hurt my feelings how people would treat me differently, and I started to hide my thoughts from society. It was not easy because I felt like I had to talk about unreasonable and illogical things all the time to be accepted in this world as a normal person.
-            
+            <br>
             Then when I was in high school, the same story happened. I told my mom I didn't want anyone to know about my IQ and my power of reasoning because I was frightened. I didn't want to become a lab rat or be used to do evil things, because for the most part, from what I knew, people with money are normally bad humans.
-            
+            <br>
             So to keep my integrity, I made these decisions. Every job that I have ends the same way. The last words I hear are, "We believe that we are holding you down, and you have a brighter future," and they let me go.
             My situation in life has been repeating over and over, and I want to stop that. I am still scared, but I have to risk a little bit because my economic situation is not good. I want to do something different this time.
-            
+            <br>
             I will expose who I am from the start because I want to find the right place for me. I want to work somewhere where I can help the world and humans in a positive way. I am also committed to working for a company for the long term as long as we share the same culture or values.
-            
+            <br>
             I don't usually say this, but I think I am more mature today to analyze a positive outcome from a culture that really is real from the heart in making a positive impact on the world.
-            
+            <br>
             So if you happen to be that culture, please reach out to me. I believe in God and I believe in good people, but I am also aware of the opposite.
             My situation has pushed me to risk a little bit about what I keep safe, but I need to sacrifice for the benefit of the ones that are behind me, the ones I love the most—my family. I want to help them out, and by keeping my integrity, I feel it is a little bit selfish.
-            
+            <br>
             Reach out to me, and I am willing to listen. I normally work in Software Development or Art, such as Music and Design because it stimulates my brain and fulfills its needs.
-            
+            <br>
             Sincerely,
             Abraham Felix
             </div>
