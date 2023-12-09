@@ -334,7 +334,7 @@
 
 <style>
 
-/*
+/* weird things
 /* Color Theme Swatches in Hex */
 .color-theme_celestialdarkness-1-hex { color: #241E26; }
 .color-theme_celestialdarkness-2-hex { color: #4B2473; }
