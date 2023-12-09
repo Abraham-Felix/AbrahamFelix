@@ -28,7 +28,7 @@
                 <div class="imgs m-d-none img-1">
                     <div class="infos info-1"><br>
                         <h2>yay! <br>Found Baby Pig!</h2>
-                        <img class="bbypig" src="@/assets/mrpig/baby-pig.png">
+                        <img class="bbypig" src="/mrpig/baby-pig.png">
                         <p>Get your <br>
                             <a href="https://drive.google.com/file/d/13x_O8cg_t-Z7EuNZ16W0LQgF2dXm0-9C/view?usp=drive_link" target="_blank">Award!</a></p>
                     </div>
@@ -39,7 +39,7 @@
             <div class="title">
                 <div class="content">
                     <div>
-                        <img id="pig-1" class=" animated tada hitri" src="@/assets/mrpig/cofee-time.png" />
+                        <img id="pig-1" class=" animated tada hitri" src="/mrpig/cofee-time.png" />
                     </div>
                     <h1>The Pig 🐽</h1>
                     <p>☕ Caffeine Swine: Sipping Art in the Silicon Sty.</p>
@@ -51,49 +51,49 @@
             <div class="grid">
                 <a class="module" style="display:flex;text-decoration:none;color:#14a0fd;">
                     <div>
-                        <img style="height:auto ;width:200px;" src="@/assets/mrpig/email-pig.png">
+                        <img style="height:auto ;width:200px;" src="/mrpig/email-pig.png">
                         <p> Oinky Mail</p>
                     </div>
                 </a>
                 <a class="module" style="display:flex;text-decoration:none;color:#14a0fd; ">
                     <div>
-                        <img style="height:auto ;width:180px;" src="@/assets/mrpig/cyberpig.png">
+                        <img style="height:auto ;width:180px;" src="/mrpig/cyberpig.png">
                         <p> Cyber Pig </p>
                     </div>
                 </a>
                 <a class="module" style="display:flex;text-decoration:none;color:#14a0fd; ">
                     <div>
-                        <img style="height:auto ;width:180px;" src="@/assets/mrpig/pignalizer.png">
+                        <img style="height:auto ;width:180px;" src="/mrpig/pignalizer.png">
                         <p> Pignaliza </p>
                     </div>
                 </a>
                 <a class="module" style="display:flex;text-decoration:none;color:#14a0fd; ">
                     <div>
-                        <img style="height:auto ;width:180px;" src="@/assets/mrpig/platinum-diamonds.png">
+                        <img style="height:auto ;width:180px;" src="/mrpig/platinum-diamonds.png">
                         <p> Bacon Bling </p>
                     </div>
                 </a>
                 <a class="module" style="display:flex;text-decoration:none;color:#14a0fd; ">
                     <div>
-                        <img style="height:auto ;width:180px;" src="@/assets/mrpig/campig.png">
+                        <img style="height:auto ;width:180px;" src="/mrpig/campig.png">
                         <p> Campig </p>
                     </div>
                 </a>
                 <a class="module" style="display:flex;text-decoration:none;color:#14a0fd; ">
                     <div>
-                        <img style="height:auto ;width:180px;" src="@/assets/mrpig/run.png">
+                        <img style="height:auto ;width:180px;" src="/mrpig/run.png">
                         <p> Porcine Dash </p>
                     </div>
                 </a>
                 <a class="module" style="display:flex;text-decoration:none;color:#14a0fd; ">
                     <div>
-                        <img style="height:auto ;width:180px;" src="@/assets/mrpig/reflections.png">
+                        <img style="height:auto ;width:180px;" src="/mrpig/reflections.png">
                         <p> Porkflection </p>
                     </div>
                 </a>
                 <a class="module" style="display:flex;text-decoration:none;color:#14a0fd; ">
                     <div>
-                        <img style="height:auto ;width:180px;" src="@/assets/mrpig/laterpay.png">
+                        <img style="height:auto ;width:180px;" src="/mrpig/laterpay.png">
                         <p> Swine Bank Chronicles </p>
                     </div>
                 </a>
@@ -104,7 +104,7 @@
             <div class=" title">
                 <div class="content">
                     <div>
-                        <img class=" animated tada hitri" src="@/assets/mrpig/emc2.png" />
+                        <img class=" animated tada hitri" src="/mrpig/emc2.png" />
                     </div>
                     <h2>Work hard, stay focused, and follow your dreams!</h2>
                 </div>
@@ -114,68 +114,68 @@
             <div class="grid">
                 <a class="module" style="display:flex;text-decoration:none;color:#14a0fd;">
                     <div>
-                        <img style="height:auto ;width:180px;" src="@/assets/mrpig/qa.png">
+                        <img style="height:auto ;width:180px;" src="/mrpig/qa.png">
                         <p> Swine's Q&A </p>
                     </div>
                 </a>
                 <a class="module" style="display:flex;text-decoration:none;color:#14a0fd; ">
                     <div>
-                        <img style="height:auto ;width:180px;" src="@/assets/mrpig/subscribed.png">
+                        <img style="height:auto ;width:180px;" src="/mrpig/subscribed.png">
                         <p> Pigscription </p>
                     </div>
                 </a>
                 <a class="module" style="display:flex;text-decoration:none;color:#14a0fd; ">
                     <div>
-                        <img style="height:auto ;width:130px;" src="@/assets/mrpig/pigtective.png">
+                        <img style="height:auto ;width:130px;" src="/mrpig/pigtective.png">
                         <p> Pignspector </p>
                     </div>
                 </a>
                 <a class="module" style="display:flex;text-decoration:none;color:#14a0fd; ">
                     <div>
-                        <img style="height:auto ;width:190px" src="@/assets/mrpig/events.png">
+                        <img style="height:auto ;width:190px" src="/mrpig/events.png">
                         <br><br>
                         <p> HogFest </p>
                     </div>
                 </a>
                 <a class="module" style="display:flex;text-decoration:none;color:#14a0fd; ">
                     <div>
-                        <img style="height:auto ;width:180px;" src="@/assets/mrpig/fetchyall.png">
+                        <img style="height:auto ;width:180px;" src="/mrpig/fetchyall.png">
                         <p> Be aware!</p>
                     </div>
                 </a>
                 <a class="module" style="display:flex;text-decoration:none;color:#14a0fd; ">
                     <div>
-                        <img style="height:auto ;width:180px;" src="@/assets/mrpig/workoholic.png">
+                        <img style="height:auto ;width:180px;" src="/mrpig/workoholic.png">
                         <p>Swirly Grind</p>
                     </div>
                 </a>
                 <a class="module" style="display:flex;text-decoration:none;color:#14a0fd; ">
                     <div>
-                        <img style="height:auto ;width:180px;" src="@/assets/mrpig/paperplexed.png">
+                        <img style="height:auto ;width:180px;" src="/mrpig/paperplexed.png">
                         <p>PigScript</p>
                     </div>
                 </a>
                 <a class="module" style="display:flex;text-decoration:none;color:#14a0fd; ">
                     <div>
-                        <img style="height:auto ;width:180px;" src="@/assets/mrpig/mxdv.png">
+                        <img style="height:auto ;width:180px;" src="/mrpig/mxdv.png">
                         <p>Entrepigneur</p>
                     </div>
                 </a>
                 <a class="module" style="display:flex;text-decoration:none;color:#14a0fd; ">
                     <div>
-                        <img style="height:auto ;width:180px;" src="@/assets/mrpig/winterbreak.png">
+                        <img style="height:auto ;width:180px;" src="/mrpig/winterbreak.png">
                         <p>Winter-Break!</p>
                     </div>
                 </a>
                 <a class="module" style="display:flex;text-decoration:none;color:#14a0fd; ">
                     <div>
-                        <img style="height:auto ;width:180px;" src="@/assets/mrpig/pigadventures.png">
+                        <img style="height:auto ;width:180px;" src="/mrpig/pigadventures.png">
                         <p>Pigventures</p>
                     </div>
                 </a>
                 <a class="module" style="display:flex;text-decoration:none;color:#14a0fd; ">
                     <div>
-                        <img style="height:auto ;width:180px;" src="@/assets/mrpig/ntr.png">
+                        <img style="height:auto ;width:180px;" src="/mrpig/ntr.png">
                         <p> Pigsaways! </p>
                     </div>
                 </a>
@@ -553,7 +553,7 @@ p {
     margin-right: auto;
     background: #07070D;
     transition: all 0.4s ease-in-out;
-    background-image: url(@/assets/theme/celestialdarkness.webp);
+    background-image: url(/theme/celestialdarkness.webp);
 }
 
 .content:hover {
@@ -639,7 +639,7 @@ h2 {
 .img-1 {
     border-color: darkgoldenrod;
     border-left-style: dashed;
-    background-image: url("@/assets/mrpig/window.png");
+    background-image: url("/mrpig/window.png");
     background-size: cover;
     background-position: center;
     overflow: hidden;
