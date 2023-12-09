@@ -81,7 +81,7 @@
                 </a>
                 <a class="module" style="display:flex;text-decoration:none;color:#14a0fd; ">
                     <div>
-                        <img style="height:auto ;width:180px;" src="@/assets/mrpig/ontherun.png">
+                        <img style="height:auto ;width:180px;" src="@/assets/mrpig/run.png">
                         <p> Porcine Dash </p>
                     </div>
                 </a>
