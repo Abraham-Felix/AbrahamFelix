@@ -94,6 +94,10 @@ export default {
           <v-list-item prepend-icon="mdi-language-css3" value="css" :title="$t('sidenav4')">
           </v-list-item>
         </router-link>
+        <router-link class="text-decoration-none text-white" to="scrollinggallery">
+          <v-list-item prepend-icon="mdi-pig" value="ScrollingGallery" :title="$t('sidenav5')">
+          </v-list-item>
+        </router-link>
       </v-list>
     </v-navigation-drawer>
 
